@@ -1,9 +1,10 @@
 package clientpool
 
 import (
+	"context"
 	"code.cloudfoundry.org/go-loggregator/v10/rpc/loggregator_v2"
 	v1 "code.cloudfoundry.org/loggregator-agent-release/src/pkg/plumbing"
-	"golang.org/x/net/context"
+	"context"
 
 	"google.golang.org/grpc/stats"
 )
